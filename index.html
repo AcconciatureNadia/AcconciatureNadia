@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+ <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  
+</head>
+<body>
+  
+<!--Navbar-->
+ <div class="navbar-fixed">
+   	<nav>
+      	<div class="nav-wrapper white">
+<!-- a è per introdurre i link con href-->
+       	 	<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       	 	<a href="#!" class="brand-logo">Acconciature Nadia</a>
+         	<ul class="right hide-on-med-and-down">
+          		<li><a href="#servizio">Servizio</a></li>
+          		<li><a href="#registrazione">Registrati</a></li>
+          		<li><a href="#ospita">Ospita</a></li>
+        	</ul>
+        	 <ul class="sidenav" id="mobile-demo">
+          		<li><a href="#servizio">Servizio</a></li>
+          		<li><a href="#registrazione">Registrati</a></li>
+          		<li><a href="#ospita">Ospita</a></li>
+ 		 </ul>
+      	</div>
+    </nav>
+  </div>
+<!--Intro-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center">Acconciature Nadia</h1>
+        <div class="row center">
+          <h5 class="header-subtitle col s12 light">°°°Alla ricerca del tuo nuovo look°°°<br>
+          Scarica il nostro listino trattamenti</h5>
+        </div>
+        <div class="row center">
+          <a href="listino.doc" target="_blank" class="btn-large waves-effect red lighten-1">Scarica qui</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="background7.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+<!--Servizio-->
+  <div id="servizio"class="container">
+    <div class="section">
+    	<div class="col-servizio">
+      <!--   Icon Section   -->
+	      <div  class="row">
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h2 class="center red-text lighten-1-text"><i class="material-icons">invert_colors</i></h2>
+	            <h5 class="center">Noi ci teniamo alla salute del tuo capello!</h5>
+	            <br>
+
+	            <h5 class= "center light red-text lighten-1-text">Utilizziamo prodotti senza parabeni</h5>
+	          </div> 
+	        </div>
+
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h2 class="center red-text lighten-1-text"><i class="material-icons">bookmark_border</i></h2>
+	            <h5 class="center">Riceviamo su appuntamento</h5>
+	            <br>
+
+	            <h5 class=" center light red-text lighten-1-text">Contattaci per prenotare il tuo prossimo trattamento</h5>
+	          </div>
+	        </div>
+
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h2 class="center red-text lighten-1-text"><i class="material-icons">sentiment_very_satisfied</i></h2>
+	            <h5 class="center">Il tuo sorriso, la nostra soddisfazione</h5>
+	            <br>
+
+	            <h5 class="center light red-text lighten-1-text">Cerchiamo di farti sentire a casa in ogni momento</h5>
+	          </div>
+	        </div>
+	      </div>
+	  </div>
+
+    </div>
+  </div>
+<!--Registrazione-->
+
+  <div id="registrazione" class= "parallax-container valign-wrapper">
+    <div class="section-registrazione no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <i class="material-icons registrazione-icon">flight </i>
+          <h3 class="col s12 light">Sei in cerca della tua prossima destinazione</h3>
+          <h5 class="col s12 registrazione-subtitle">Registrati per rimanere aggiornato per il rilascio della versione Beta </h5>
+	          <!--   inserire email in registrati -->
+	          <div class="row">
+	          		<!--   l6 è la largezza della colonna della mail... ofset-l3 sono 3 spostamenti di offset -->
+	          		<div class="input-field col s12 l6 offset-l3">
+	          		<!--   class ho aggiunto white per fare lo sfondo bianco e center per scrivere al centro e black-text per il colore del testo in cui si scriverà la mail...placeholder è per mettere una scritta nel box -->
+	          			<input id="email" type="email" class="validate white center black-text" placeholder= "Inserisci qui la tua e-mail">
+	          			<button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" name="action">Voglio registrarmi</button>
+	    		   		<!--<i class="material-icons right">send</i> mette 
+	    				l'icona vicino a voglio registrarmi dentroal riquadro -->
+	    				<!--   la classe btn-registrazione regola la larghezza della colonna mail e la devo definire in CSS... in CSS 100% in modo che sia uguale a larghezza mail.... viene larga come mail perchè sopra ho messo l6 offeset-l3 -->
+	      			</div>
+	      		</div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background5.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+<!--Ospita-->
+  <div id="ospita" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <i class="material-icons ospita-icon red-text lighten-1-text"> place</i>
+          <h3>Vuoi affittare la tua casa?</h3>
+          <h5 class="col s12 registrazione-subtitle">Compila il seguente questionario idicando la città, il quartiere e il numero di case disponibili. 
+          <br>
+          Ti contatteremo al più presto! </h5>
+          <button class="col l6 offset-l3 btn btn-ospita waves-effect waves-light red lighten-1" type="submit" name="action">Voglio affittare casa!</button>
+          </div>
+      </div>
+
+    </div>
+  </div>
+<!--Innovazione-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-innovazione no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h3 class="header center white-text">Nessuna paura di cambiare</h3>
+        <br><br>
+        <h5 class="center white-text">Look, eleganza e innovazione</h5>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background6.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+   
+<!-- Footer -->
+<footer class="page-footer">
+	  <!-- Footer cambio colore di fondo lovado a definire nel CSS però devo cancellare teal (qui sopra nella class) che è il colore verde predefinito da materialize -->
+	  <div class="container">
+	   	 <div class="row">
+	    		<div class="col12 l12 s12 center">
+	       			<h5 class="white-text">Contattaci</h5>
+	       			<a href="mailto:nadiaacconciaturana@gmail.com" class="social-icon"><i class="fa fa-envelope"></i></a>
+	       			<a href="https://www.facebook.com/vittorio.leonardi.3" target="_blank" class="social-icon">
+	       			<i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+	       			<a href="https://www.facebook.com/vittorio.leonardi.3" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a>
+	       		<!-- Taget fa aprire link in una nuova pagina -->
+	     		</div>
+	    	</div>
+		</div>
+	<div class="footer-copyright">
+	 	<div class="container">
+	    	2019&copy <a class="brown-text text-lighten-3" target="_blank" href="https://www.facebook.com/vittorio.leonardi.3">VittorioLeonardi</a>
+	    </div>
+	</div>
+ </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
